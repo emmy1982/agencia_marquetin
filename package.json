@@ -1,0 +1,20 @@
+{
+  "name": "vite-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "gsap": "^3.14.2",
+    "lucide": "^0.562.0",
+    "split-type": "^0.3.4"
+  }
+}
