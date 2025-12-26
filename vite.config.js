@@ -2,9 +2,8 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-  // Base path - cambiar esto si tu repo no está en la raíz
-  // Por ejemplo, si tu repo se llama "aura-agency", usa: base: '/aura-agency/'
-  base: './',
+  // Base path para GitHub Pages
+  base: '/agencia_marquetin/',
   
   build: {
     outDir: 'dist',
